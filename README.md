@@ -1,6 +1,5 @@
 
-<!--<img src="https://github.com/oriondesign2015/SetupOrion/blob/main/src/Capa.png">-->
-<img src="https://github.com/francisbreit/SetupFrancisMno-main/assets/5285287/8ca86d21-26fc-4f41-a4d7-774ab3166b58">
+
 
 <!--<br><br>EM MANUTENÇÃO<br>-->
 <br>
