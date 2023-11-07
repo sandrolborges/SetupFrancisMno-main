@@ -26,7 +26,7 @@ Com essa solução, você consegue instalar as seguintes ferramentas:<br><br>
 ✅ ⚡ <b>RabbitMq</b> ----------> Latest<br>
 ❌ ⚡ <b>Flowise</b> -----------> Em breve<br>
 ❌ ⚡ <b>UptimeKuma</b> --------> Em breve<br>
-✅ ⚡ <b>PgAdmin4</b> ----------> Latest<br>
+✅ ⚡ <b>PgAdmin4</b> ----------> Latest<br><br>
 ATENÇÃO: Cuidado ao instalar várias ferramentas em conjunto, pois, o servidor utilizado por você necessita que que os recursos, ora alocados, suportem aplicativos funcionando ao mesmo tempo! Tome muito cuidado e sempre observe se a sua estrutura é suficiente. Se usar em produção, instale apenas as aplicações as quais sejam necessárias!  <br><br>
 
 ## 📌 Observação
