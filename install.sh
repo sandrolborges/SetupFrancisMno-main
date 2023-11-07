@@ -112,7 +112,7 @@ echo -e "\e[32m|_||_| |_|(___/    \__)\_____| \_)\_____| \____| \___/ |_|    |__
 echo -e "\e[32m\e[0m"
 echo -e "\e[32m\e[0m"     
 echo "Parabéns! Você tem um ambiente pronto. Escolha seu App e instale em 1 minuto!"                                                                      
-echo "Digite o NUMERO da opção desejada:"
+echo "Digite o NUMERO da opção desejada e tecle enter:"
 echo ""
 echo -e "${amarelo}[1]${reset} - ${branco}Chatwoot${reset}"
 echo -e "${amarelo}[2]${reset} - ${branco}Evolution API${reset}"
