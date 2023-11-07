@@ -70,8 +70,8 @@ Simples, se inscreva no meu canal [clicando aqui](https://www.youtube.com/c/Fran
 
 ## ✅ Agradecimentos/Creditos
 
-Agradeço especialmente a Orion <a href="https://github.com/oriondesign2015/SetupOrion">OrionDesign</a> por ter me inspirado a criar a presente versão, além de compartilhar na comunidade várias informações.
-Também meus fortes agradecimentos ao professor Luiz da  <a href="https://promovaweb.com/"> Promovaweb</a> que vem ajudando muito com seus cohecimentos avançados e cujo auto instalador é bem mais avançado. Não esquecendo do pessoal da comunidade <a href="https://github.com/cwmkt">CWMKT</a> da qual compartilhamos muitas informações e, por último, um abraço especial ao time da <a href="https://evolution-api.com/opensource-whatsapp-api/">Evolution APi</a>.
+Agradeço especialmente ao Orion <a href="https://github.com/oriondesign2015/SetupOrion">OrionDesign</a> por ter me inspirado a criar a presente versão, além de compartilhar na comunidade várias informações.
+Também meus fortes agradecimentos ao professor Luiz da  <a href="https://promovaweb.com/"> Promovaweb</a> que vem ajudando muito com seus cohecimentos avançados e cujo auto instalador é bem mais avançado. Não esquecendo do pessoal da comunidade <a href="https://github.com/cwmkt">CWMKT</a> da qual compartilhamos muitas idéias e, por último, um abraço especial ao time da <a href="https://evolution-api.com/opensource-whatsapp-api/">Evolution APi</a>.
 <br><br><br>
 
 Todo conhecimento deve ser compartilhado!
@@ -81,5 +81,7 @@ Todo conhecimento deve ser compartilhado!
 ## ✅ Colaboradores
 Segue a lista (das melhores) pessoas a colaborar com nosso Git, seja com soluções, avisos de correções ou ajuda monetaria:
 - <b>ORION DESIGN</b>
+- <b>PROMOVAWEB</b>
+- <b>EVOLUTION API</b>
 - <b>EQUIPE CWMKT</b>
 - <b>RAPHAEL - ASTRA ONLINE</b>
