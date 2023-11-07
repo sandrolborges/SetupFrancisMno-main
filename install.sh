@@ -111,7 +111,7 @@ echo -e "\e[32m| || | | ||___ |  | |_ / ___ || | / ___ |( (_| || |_| || |    | _
 echo -e "\e[32m|_||_| |_|(___/    \__)\_____| \_)\_____| \____| \___/ |_|    |_____)(___/ \e[0m"
 echo -e "\e[32m\e[0m"
 echo -e "\e[32m\e[0m"     
-echo "Parabéns! Você tem um ambiente pronto. Escolha seu App!"                                                                      
+echo "Parabéns! Você tem um ambiente pronto. Escolha seu App e instale em 1 minuto!"                                                                      
 echo "Digite o NUMERO da opção desejada:"
 echo ""
 echo -e "${amarelo}[1]${reset} - ${branco}Chatwoot${reset}"
