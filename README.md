@@ -27,13 +27,13 @@ Com essa solução, você consegue instalar as seguintes ferramentas:<br><br>
 ❌ ⚡ <b>Flowise</b> -----------> Em breve<br>
 ❌ ⚡ <b>UptimeKuma</b> --------> Em breve<br>
 ✅ ⚡ <b>PgAdmin4</b> ----------> Latest<br>
-ATENÇÃO: Cuidado ao instalar várias ferramentas em conjunto, pois, o servidor utilizado por você necessita que seus recursos suportem aplicativos funcionando ao mesmo tempo! Tome muito cuidado e sempre observe se a sua estrutura é suficiente. Se usar em produção, instale apenas as aplicações as quais sejam necessárias!  <br><br>
+ATENÇÃO: Cuidado ao instalar várias ferramentas em conjunto, pois, o servidor utilizado por você necessita que que os recursos, ora alocados, suportem aplicativos funcionando ao mesmo tempo! Tome muito cuidado e sempre observe se a sua estrutura é suficiente. Se usar em produção, instale apenas as aplicações as quais sejam necessárias!  <br><br>
 
 ## 📌 Observação
 
-- Recomendamos que use a VPS da <b>Hetzner, Contabo, Digital Ocean, etc</b> com o sistema <b>Debian 11 ou 12 limpo</b>! Foram realizados testes de instalação do presente instalador e ferramentas, por várias vezes, em uma VPS da Contabo com 8Gb Ram + 4vCores + Debian 11. Aliás, o código com o ambiente (Docker Swarm), criado por este instalador, foi desenhado para o sistema Debian, por este motivo, além de ser fundamental usar nesta Distro recomendamos que seja um Debian totalmente limpo, do zero!
-- Caso for utilizar outra VPS, diferente das citadas aqui, verifique se as portas escolhidas na instalação estão abertas.
-- Apesar de não recomendado usar esta solução em servidor com outras ferramentas pré-instaladas, caso tiver qualquer ferramenta na sua VPS em produção, realize Snapshot/backup da sua VPS antes, para evitar eventuais problemas.
+- Recomendamos que use um VPS de boa qualidade, com o sistema <b>Debian 11 ou 12 limpo</b>! Não recomendamos hospedagens compartilhadas. Foram realizados testes de instalação do presente instalador e ferramentas, por várias vezes, em uma VPS da Contabo com 8Gb Ram + 4vCores + Debian 11. Aliás, o código com o ambiente (Docker Swarm), criado por este instalador, foi desenhado para o sistema Debian, por este motivo, além de ser fundamental usar esta Distro recomendamos que seja um Debian totalmente limpo, do zero!
+- Em determinadas empresas de Hospedagem pode ser necessário que se verifique se as portas escolhidas na instalação estão abertas.
+- Apesar de não recomendado usar esta solução em servidor com outras ferramentas pré-instaladas, caso tiver qualquer aplicativo na sua VPS em produção, realize Snapshot/backup da sua VPS antes, para evitar eventuais problemas.
 - O presente instalador é amplamente seguro e todos os dados preenchidos na instalação não são enviados para nenhum ambiente externo.
 - Você não precisa solicitar autorização para usar esse instalador em cursos e/ou videos, apenas forneça os devidos créditos.
 - Se após seguir todos os passos, verificar os videos de apoio e instruções de erros, não conseguir instalar alguma ferramenta, entre em contato comigo através do whatsapp [clicando aqui](https://wa.me/+5511968162690) (Diga seu nome, VPS que esta usando, descreva e mande fotos dos problemas que estão ocorrendo). 
