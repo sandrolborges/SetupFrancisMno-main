@@ -197,63 +197,37 @@ cat > $nome_app.yaml << EOL
 version: "3.7"
 
 services:
-  # Define a service named minio
   $nome_app:
-    # Usa a imagem do MinIO no Quay.io
     image: quay.io/minio/minio
-    # Define o Comando de inicio do servidor do Minio
     command: server /data --console-address ":9001"
-    # Define a rede que o container vai usar
     networks:
       - network_public
-    # Define o volume que irá armazenar os dados do minio
     volumes:
       - $nome_app-data:/data
-    # Define as variaveis de ambiente que o container vai usar
     environment:
-      # Define o usuario root do Minio
       - MINIO_ROOT_USER=$usuariominio
-      # Define a senha root do Minio
       - MINIO_ROOT_PASSWORD=$senhaminio
-      # Define o endereço do console do Minio
       - MINIO_BROWSER_REDIRECT_URL=https://$painel
-      # Define o endereço público do Minio
       - MINIO_SERVER_URL=https://$publico
     deploy:
-      # Define o modo de deploy do container
       mode: replicated
-      # Define o numero de replicas do container (sempre 1)
       replicas: 1
-      # Define o local de execução do container
       placement:
         constraints:
           - node.role == manager
       labels:
-        # Habilita o Traefik
         - traefik.enable=true
-        # Define o endereço publico do Minio
         - traefik.http.routers.$nome_app_public.rule=Host(\`$publico\`)
-        # Redireciona o endereço para HTTPS
         - traefik.http.routers.$nome_app_public.entrypoints=websecure
-        # Define o certificado SSL
         - traefik.http.routers.$nome_app_public.tls.certresolver=letsencryptresolver
-        # Define a porta do servidor publico do Minio
         - traefik.http.services.$nome_app_public.loadbalancer.server.port=9000
-        # Define os Headers que o Minio vai usar
         - traefik.http.services.$nome_app_public.loadbalancer.passHostHeader=true
-        # Define o serviço que irá ser usado
         - traefik.http.routers.$nome_app_public.service=$nome_app_public
-        # Define o endereço do console do Minio
         - traefik.http.routers.$nome_app_console.rule=Host(\`$painel\`)
-        # Redireciona o endereço para HTTPS
         - traefik.http.routers.$nome_app_console.entrypoints=websecure
-        # Define o certificado SSL
         - traefik.http.routers.$nome_app_console.tls.certresolver=letsencryptresolver
-        # Define a porta do servidor do console do Minio
         - traefik.http.services.$nome_app_console.loadbalancer.server.port=9001
-        # Define os Headers que o Minio vai usar
         - traefik.http.services.$nome_app_console.loadbalancer.passHostHeader=true
-        # Define o serviço que irá ser usado
         - traefik.http.routers.$nome_app_console.service=$nome_app_console
 
 volumes:
