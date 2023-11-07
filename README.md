@@ -2,7 +2,7 @@
 <br><br>
 <p align="center">
   Esta é uma solução gratuita de Auto Instalador, totalmente baseado em Shell e com o objetivo de auxiliar na instalação das principais ferramentas low-code de código aberto no mercado.<br>
-  Instale aplicativos como N8N, Typebot, Chatwoot, Flowise, etc, em ambiente Docker Swarm em menos de 1 minuto!<br>
+  Instale aplicativos como N8N, Typebot, Chatwoot, Flowise, etc, em ambiente Docker Swarm em menos de 1 minuto!<br>Basta baixar no seu servidor com um simples comando (instruções mais abaixo) que o resto fica por conta do auto instalador.<br>
   <b>O instalador prepara, inicialmente, o Docker Swarm e ferramentas essenciais, onde logo após, você poderá optar pelos aplicativos que preferir, simplesmente selecionando nas opções do menu inicial, quais das ferramentas prefere instalar.</b>
   Desenvolvido por <b>FrancisMno</b>. 
   Este instalador é baseado e existe graças ao instalador original desenvolvido pela <b> <a href="https://github.com/oriondesign2015/SetupOrion">OrionDesign</a></b> chamado de <b> Setup de Autos Instaladores desenvolvido pela OrionDesign</b>. Apenas usei o código base do instalador da OrionDesign (que considerei muito prático e intuitivo) e alterei a forma de instalação para o ambiente com <b>Docker Swarm, Portainer (Gerenciador Docker) e Traefik (Proxy).</b> 
