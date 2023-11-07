@@ -1,7 +1,7 @@
 <img src="https://github.com/francisbreit/SetupFrancisMno-main/assets/5285287/228e9463-a57e-4efa-b709-163a52875426">
 <br><br>
 <p align="center">
-  Esta é uma solução gratuita de Auto Instalador, totalmente baseado em Shell e com o objetivo de auxiliar na instalação das principais ferramentas low-code de código aberto no mercado.<br>
+  Esta é uma solução gratuita de Auto Instalador, totalmente baseado em Shell e com o objetivo de auxiliar na instalação das principais ferramentas low-code de código aberto do mercado.<br>
   Instale aplicativos como N8N, Typebot, Chatwoot, Flowise, etc, em ambiente Docker Swarm em menos de 1 minuto!<br>Basta baixar no seu servidor com um simples comando (instruções mais abaixo) que o resto fica por conta do auto instalador.<br>
   <b>O instalador prepara, inicialmente, o Docker Swarm e ferramentas essenciais, onde logo após, você poderá optar pelos aplicativos que preferir, simplesmente selecionando nas opções do menu inicial, quais das ferramentas prefere instalar.</b>
   Desenvolvido por <b>FrancisMno</b>. 
