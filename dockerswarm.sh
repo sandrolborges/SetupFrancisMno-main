@@ -100,10 +100,10 @@ echo -e "\e[32m"
 #
 
 
-echo -e "Para o instalador funcionar perfeitamente você"
-echo -e "deverá prosseguir e instalar o ambiente inicial."
-echo -e "Recomendamos que a instalação seja realizada em"
-echo -e "servidor Debian 11 ou 12 zerado. "
+echo -e "Para o instalador funcionar perfeitamente pela primeira vez,"
+echo -e "você deverá prosseguir com a instalação  do ambiente inicial."
+echo -e "Recomendamos que a instalação seja realizada em servidor com"
+echo -e "com Debian 11 ou 12 zerado, sem outros aplicativos "
 echo -e "\e[93m==========================================================================\e[0m"
 echo -e "\e[93m=              \e[33mPARTE INICIAL: INSTALAÇÃO OBRIGATÓRIA DO DOCKER SWARM     =\e[0m"
 echo -e "\e[93m=              \e[33mPreencha as informações solicitadas abaixo.               =\e[0m"
