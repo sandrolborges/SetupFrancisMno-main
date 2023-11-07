@@ -40,7 +40,8 @@ ATENÇÃO: Cuidado ao instalar várias ferramentas em conjunto, pois, o servidor
 
 ## 🔧 Instalação
 
-Serão apenas 3 passos simples durante a instalação (mostrados logo abaixo), e a única recomendação que temos, se você instalar o nosso instalador pela primeira vez, é já deixar pronto um servidor com Debian 11 ou 12 sem nada instalado, apenas o sistema operacional. Passos da instalação:
+Serão apenas 3 passos simples durante a instalação (mostrados logo abaixo), e a única recomendação que temos, se você instalar o nosso instalador pela primeira vez, é já deixar pronto um servidor com Debian 11 ou 12 sem nada instalado, apenas o sistema operacional. Tambem é bom criar e apontar o DNS do seu Portainer e aplicativos, antes de inciar a instalação, para o SSL funcionar perfeito logo após as instalações!<br>
+Abaixo estão as instruções. Em breve, criaremos videos no Youtube, mas o Auto instalador é auto explicativo e muito simples de usar.<br><br> Passos da instalação:
 
 <p><b>1a-</b> Não tenho o <b>SetupFrancisMno</b> na minha VPS:</p>
 
