@@ -1,5 +1,5 @@
 <img src="https://github.com/francisbreit/SetupFrancisMno-main/assets/5285287/228e9463-a57e-4efa-b709-163a52875426">
-<br>
+<br><br>
 <p align="center">
   Esta é uma solução gratuita de Auto Instalador, com o objetivo de auxiliar na instalação das principais ferramentas low-code de código aberto no mercado.<br>
   Instale aplicativos como N8N, Typebot, Chatwoot, Flowise, etc, em ambiente Docker Swarm em menos de 1 minuto!<br>
